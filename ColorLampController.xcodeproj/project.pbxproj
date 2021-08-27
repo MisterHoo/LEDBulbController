@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBAD8B3C26D63F2300AF9B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B3B26D63F2300AF9B6A /* AppDelegate.swift */; };
+		DBAD8B3E26D63F2300AF9B6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B3D26D63F2300AF9B6A /* SceneDelegate.swift */; };
+		DBAD8B4026D63F2300AF9B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B3F26D63F2300AF9B6A /* ViewController.swift */; };
+		DBAD8B4326D63F2300AF9B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAD8B4126D63F2300AF9B6A /* Main.storyboard */; };
+		DBAD8B4526D63F2B00AF9B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAD8B4426D63F2B00AF9B6A /* Assets.xcassets */; };
+		DBAD8B4826D63F2B00AF9B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAD8B4626D63F2B00AF9B6A /* LaunchScreen.storyboard */; };
+		DBAD8B5326D63F2C00AF9B6A /* ColorLampControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B5226D63F2C00AF9B6A /* ColorLampControllerTests.swift */; };
+		DBAD8B5E26D63F2C00AF9B6A /* ColorLampControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B5D26D63F2C00AF9B6A /* ColorLampControllerUITests.swift */; };
+		DBAD8B6F26D7787E00AF9B6A /* BluetoothLEDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B6E26D7787E00AF9B6A /* BluetoothLEDManager.swift */; };
+		DBAD8B7426D77ACF00AF9B6A /* BluetoothLEDManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B7326D77ACF00AF9B6A /* BluetoothLEDManagerDelegate.swift */; };
+		DBAD8B7F26D77C7B00AF9B6A /* LEDAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD8B7E26D77C7B00AF9B6A /* LEDAttribute.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBAD8B4F26D63F2C00AF9B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBAD8B3026D63F2300AF9B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBAD8B3726D63F2300AF9B6A;
+			remoteInfo = ColorLampController;
+		};
+		DBAD8B5A26D63F2C00AF9B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBAD8B3026D63F2300AF9B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBAD8B3726D63F2300AF9B6A;
+			remoteInfo = ColorLampController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBAD8B3826D63F2300AF9B6A /* ColorLampController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorLampController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAD8B3B26D63F2300AF9B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBAD8B3D26D63F2300AF9B6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBAD8B3F26D63F2300AF9B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBAD8B4226D63F2300AF9B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBAD8B4426D63F2B00AF9B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBAD8B4726D63F2B00AF9B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBAD8B4926D63F2B00AF9B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAD8B4E26D63F2C00AF9B6A /* ColorLampControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorLampControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAD8B5226D63F2C00AF9B6A /* ColorLampControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLampControllerTests.swift; sourceTree = "<group>"; };
+		DBAD8B5426D63F2C00AF9B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAD8B5926D63F2C00AF9B6A /* ColorLampControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorLampControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAD8B5D26D63F2C00AF9B6A /* ColorLampControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLampControllerUITests.swift; sourceTree = "<group>"; };
+		DBAD8B5F26D63F2C00AF9B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAD8B6E26D7787E00AF9B6A /* BluetoothLEDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLEDManager.swift; sourceTree = "<group>"; };
+		DBAD8B7326D77ACF00AF9B6A /* BluetoothLEDManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLEDManagerDelegate.swift; sourceTree = "<group>"; };
+		DBAD8B7E26D77C7B00AF9B6A /* LEDAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDAttribute.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBAD8B3526D63F2300AF9B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAD8B4B26D63F2C00AF9B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAD8B5626D63F2C00AF9B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBAD8B2F26D63F2300AF9B6A = {
+			isa = PBXGroup;
+			children = (
+				DBAD8B3A26D63F2300AF9B6A /* ColorLampController */,
+				DBAD8B5126D63F2C00AF9B6A /* ColorLampControllerTests */,
+				DBAD8B5C26D63F2C00AF9B6A /* ColorLampControllerUITests */,
+				DBAD8B3926D63F2300AF9B6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBAD8B3926D63F2300AF9B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD8B3826D63F2300AF9B6A /* ColorLampController.app */,
+				DBAD8B4E26D63F2C00AF9B6A /* ColorLampControllerTests.xctest */,
+				DBAD8B5926D63F2C00AF9B6A /* ColorLampControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBAD8B3A26D63F2300AF9B6A /* ColorLampController */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD8B3B26D63F2300AF9B6A /* AppDelegate.swift */,
+				DBAD8B3D26D63F2300AF9B6A /* SceneDelegate.swift */,
+				DBAD8B3F26D63F2300AF9B6A /* ViewController.swift */,
+				DBAD8B6E26D7787E00AF9B6A /* BluetoothLEDManager.swift */,
+				DBAD8B7326D77ACF00AF9B6A /* BluetoothLEDManagerDelegate.swift */,
+				DBAD8B7E26D77C7B00AF9B6A /* LEDAttribute.swift */,
+				DBAD8B4126D63F2300AF9B6A /* Main.storyboard */,
+				DBAD8B4426D63F2B00AF9B6A /* Assets.xcassets */,
+				DBAD8B4626D63F2B00AF9B6A /* LaunchScreen.storyboard */,
+				DBAD8B4926D63F2B00AF9B6A /* Info.plist */,
+			);
+			path = ColorLampController;
+			sourceTree = "<group>";
+		};
+		DBAD8B5126D63F2C00AF9B6A /* ColorLampControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD8B5226D63F2C00AF9B6A /* ColorLampControllerTests.swift */,
+				DBAD8B5426D63F2C00AF9B6A /* Info.plist */,
+			);
+			path = ColorLampControllerTests;
+			sourceTree = "<group>";
+		};
+		DBAD8B5C26D63F2C00AF9B6A /* ColorLampControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD8B5D26D63F2C00AF9B6A /* ColorLampControllerUITests.swift */,
+				DBAD8B5F26D63F2C00AF9B6A /* Info.plist */,
+			);
+			path = ColorLampControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBAD8B3726D63F2300AF9B6A /* ColorLampController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAD8B6226D63F2C00AF9B6A /* Build configuration list for PBXNativeTarget "ColorLampController" */;
+			buildPhases = (
+				DBAD8B3426D63F2300AF9B6A /* Sources */,
+				DBAD8B3526D63F2300AF9B6A /* Frameworks */,
+				DBAD8B3626D63F2300AF9B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorLampController;
+			productName = ColorLampController;
+			productReference = DBAD8B3826D63F2300AF9B6A /* ColorLampController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBAD8B4D26D63F2C00AF9B6A /* ColorLampControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAD8B6526D63F2C00AF9B6A /* Build configuration list for PBXNativeTarget "ColorLampControllerTests" */;
+			buildPhases = (
+				DBAD8B4A26D63F2C00AF9B6A /* Sources */,
+				DBAD8B4B26D63F2C00AF9B6A /* Frameworks */,
+				DBAD8B4C26D63F2C00AF9B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBAD8B5026D63F2C00AF9B6A /* PBXTargetDependency */,
+			);
+			name = ColorLampControllerTests;
+			productName = ColorLampControllerTests;
+			productReference = DBAD8B4E26D63F2C00AF9B6A /* ColorLampControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBAD8B5826D63F2C00AF9B6A /* ColorLampControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBAD8B6826D63F2C00AF9B6A /* Build configuration list for PBXNativeTarget "ColorLampControllerUITests" */;
+			buildPhases = (
+				DBAD8B5526D63F2C00AF9B6A /* Sources */,
+				DBAD8B5626D63F2C00AF9B6A /* Frameworks */,
+				DBAD8B5726D63F2C00AF9B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBAD8B5B26D63F2C00AF9B6A /* PBXTargetDependency */,
+			);
+			name = ColorLampControllerUITests;
+			productName = ColorLampControllerUITests;
+			productReference = DBAD8B5926D63F2C00AF9B6A /* ColorLampControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBAD8B3026D63F2300AF9B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DBAD8B3726D63F2300AF9B6A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DBAD8B4D26D63F2C00AF9B6A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DBAD8B3726D63F2300AF9B6A;
+					};
+					DBAD8B5826D63F2C00AF9B6A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DBAD8B3726D63F2300AF9B6A;
+					};
+				};
+			};
+			buildConfigurationList = DBAD8B3326D63F2300AF9B6A /* Build configuration list for PBXProject "ColorLampController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBAD8B2F26D63F2300AF9B6A;
+			productRefGroup = DBAD8B3926D63F2300AF9B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBAD8B3726D63F2300AF9B6A /* ColorLampController */,
+				DBAD8B4D26D63F2C00AF9B6A /* ColorLampControllerTests */,
+				DBAD8B5826D63F2C00AF9B6A /* ColorLampControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBAD8B3626D63F2300AF9B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAD8B4826D63F2B00AF9B6A /* LaunchScreen.storyboard in Resources */,
+				DBAD8B4526D63F2B00AF9B6A /* Assets.xcassets in Resources */,
+				DBAD8B4326D63F2300AF9B6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAD8B4C26D63F2C00AF9B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAD8B5726D63F2C00AF9B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBAD8B3426D63F2300AF9B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAD8B7F26D77C7B00AF9B6A /* LEDAttribute.swift in Sources */,
+				DBAD8B4026D63F2300AF9B6A /* ViewController.swift in Sources */,
+				DBAD8B7426D77ACF00AF9B6A /* BluetoothLEDManagerDelegate.swift in Sources */,
+				DBAD8B3C26D63F2300AF9B6A /* AppDelegate.swift in Sources */,
+				DBAD8B6F26D7787E00AF9B6A /* BluetoothLEDManager.swift in Sources */,
+				DBAD8B3E26D63F2300AF9B6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAD8B4A26D63F2C00AF9B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAD8B5326D63F2C00AF9B6A /* ColorLampControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAD8B5526D63F2C00AF9B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAD8B5E26D63F2C00AF9B6A /* ColorLampControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBAD8B5026D63F2C00AF9B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBAD8B3726D63F2300AF9B6A /* ColorLampController */;
+			targetProxy = DBAD8B4F26D63F2C00AF9B6A /* PBXContainerItemProxy */;
+		};
+		DBAD8B5B26D63F2C00AF9B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBAD8B3726D63F2300AF9B6A /* ColorLampController */;
+			targetProxy = DBAD8B5A26D63F2C00AF9B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBAD8B4126D63F2300AF9B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBAD8B4226D63F2300AF9B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBAD8B4626D63F2B00AF9B6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBAD8B4726D63F2B00AF9B6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBAD8B6026D63F2C00AF9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBAD8B6126D63F2C00AF9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBAD8B6326D63F2C00AF9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8B979NUW2;
+				INFOPLIST_FILE = ColorLampController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoo.ColorLampController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBAD8B6426D63F2C00AF9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8B979NUW2;
+				INFOPLIST_FILE = ColorLampController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoo.ColorLampController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBAD8B6626D63F2C00AF9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8B979NUW2;
+				INFOPLIST_FILE = ColorLampControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoo.ColorLampControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorLampController.app/ColorLampController";
+			};
+			name = Debug;
+		};
+		DBAD8B6726D63F2C00AF9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8B979NUW2;
+				INFOPLIST_FILE = ColorLampControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoo.ColorLampControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorLampController.app/ColorLampController";
+			};
+			name = Release;
+		};
+		DBAD8B6926D63F2C00AF9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8B979NUW2;
+				INFOPLIST_FILE = ColorLampControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoo.ColorLampControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorLampController;
+			};
+			name = Debug;
+		};
+		DBAD8B6A26D63F2C00AF9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8B979NUW2;
+				INFOPLIST_FILE = ColorLampControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoo.ColorLampControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorLampController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBAD8B3326D63F2300AF9B6A /* Build configuration list for PBXProject "ColorLampController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAD8B6026D63F2C00AF9B6A /* Debug */,
+				DBAD8B6126D63F2C00AF9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAD8B6226D63F2C00AF9B6A /* Build configuration list for PBXNativeTarget "ColorLampController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAD8B6326D63F2C00AF9B6A /* Debug */,
+				DBAD8B6426D63F2C00AF9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAD8B6526D63F2C00AF9B6A /* Build configuration list for PBXNativeTarget "ColorLampControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAD8B6626D63F2C00AF9B6A /* Debug */,
+				DBAD8B6726D63F2C00AF9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBAD8B6826D63F2C00AF9B6A /* Build configuration list for PBXNativeTarget "ColorLampControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBAD8B6926D63F2C00AF9B6A /* Debug */,
+				DBAD8B6A26D63F2C00AF9B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBAD8B3026D63F2300AF9B6A /* Project object */;
+}
